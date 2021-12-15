@@ -1,0 +1,14 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.imgContainer {
+  background-color: #eee;
+  height: 352px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.nome {
+  margin: 0.5rem 0;
+}

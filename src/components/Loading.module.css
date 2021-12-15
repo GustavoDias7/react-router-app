@@ -1,0 +1,14 @@
+.loading {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  border-radius: 50%;
+  border: 6px solid #bbb;
+  border-bottom-color: transparent;
+  animation: anime-loading linear 0.5s infinite;
+}
+@keyframes anime-loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
